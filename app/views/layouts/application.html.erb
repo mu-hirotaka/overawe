@@ -10,7 +10,11 @@
 <div id="user_nav">
   <%= link_to "Sign in with Twitter", "/auth/twitter" %>
 </div>
-<%= yield %>
 
+<% if flash.notice %>
+  <span class="notice"><%= flash.notice %></span>
+<% end %>
+
+<%= yield %>
 </body>
 </html>
