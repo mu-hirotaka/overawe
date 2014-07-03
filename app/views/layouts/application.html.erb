@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SocialLogin</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div id="user_nav">
-  <% if current_user %>
-    Welcome, <%= current_user.name %>! <%= link_to 'Sign Out', signout_path %>
-  <% else %>
-    <%= link_to "Sign in with Twitter", "/auth/twitter" %>
-  <% end %>
-</div>
-
-<% if flash.notice %>
-  <span class="notice"><%= flash.notice %></span>
-<% end %>
-
-<%= yield %>
+  <div class="container">
+    <%= render 'shared/header' %>
+    <%= yield %>
+    <%= render 'shared/footer' %>
+  </div>
 </body>
 </html>

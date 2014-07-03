@@ -1,0 +1,14 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Contact</a></li>
+    <li>
+      <% if current_user %>
+        <%= link_to 'Sign Out', signout_path %>
+      <% else %>
+        <%= link_to "Sign In", "/auth/twitter" %>
+      <% end %>
+    </li>
+  </ul>
+  <h3 class="text-muted">Mission</h3>
+</div>
