@@ -33,6 +33,8 @@ body {
 .jumbotron {
   border-bottom: 0;
   text-align: center;
+  background-color: $gray-dark;
+  color: #fff;
 }
 
 .callout {
@@ -44,16 +46,16 @@ body {
 }
 
 .callout-warning {
-  border-left-color: $warning_yellow;
+  border-left-color: $brand-warning;
   h4 {
-    color: $warning_yellow;
+    color: $brand-warning;
   }
 }
 
 .callout-danger {
-  border-left-color: $danger_red;
+  border-left-color: $brand-danger;
   h4 {
-    color: $danger_red;
+    color: $brand-danger;
   }
 }
 
