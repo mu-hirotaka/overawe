@@ -4,10 +4,19 @@
 </div>
 
 <h3>本日のMission</h3>
-<div class="callout callout-danger">
-  <h4>最新のカメラを調査せよ</h4>
-  <p>カメラについて調べ報告してくれ。</p>
-</div>
+<% if @today_missions.length > 0 %>
+  <% @today_missions.each do |mission| %>
+    <div class="callout callout-danger">
+      <h4><%= mission.title %></h4>
+      <p><%= mission.content %></p>
+    </div>
+  <% end %>
+<% else %>
+  <div class="callout callout-danger">
+    <h4>発表されていません</h4>
+    <p>いましばらくお待ちください。</p>
+  </div>
+<% end %>
 
 <div class="row">
   <div class="col-md-6">
@@ -19,14 +28,12 @@
   </div>
   <div class="col-md-6">
     <h3>過去のMission</h3>
-    <div class="callout callout-warning">
-      <h4>コンビニを調査せよ(7/6)</h4>
-      <p>コンビニを調査しろ。コンビニを見つけて報告してくれ。</p>
-    </div>
-    <div class="callout callout-warning">
-      <h4>そばを食え(7/5)</h4>
-      <p>そばを食え。</p>
-    </div>
+    <% @recent_missions.each do |mission| %>
+      <div class="callout callout-warning">
+        <h4><%= mission.title %></h4>
+        <p><%= mission.content %></p>
+      </div>
+    <% end %>
   </div>
 </div>
 

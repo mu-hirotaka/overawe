@@ -1,7 +1,6 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+MissionMaster.first_or_create([
+  { id: 1, title: 'そばを食え', content: 'そばを食え。', opened_at: 1404486000, closed_at: 1404572399 },
+  { id: 2, title: 'コンビニを調査せよ', content: 'コンビニを調査しろ。コンビニを見つけて報告してくれ。', opened_at: 1404572400, closed_at: 1404658799 },
+  { id: 3, title: '最新のカメラを調査せよ', content: '最新のカメラについて調べ報告してくれ。', opened_at: 1404658800, closed_at: 1404745199 },
+  { id: 4, title: 'ボールを手に入れろ', content: '種類はなんでもいい。ボールを入手してくれ。', opened_at: 1404745200, closed_at: 1404831599 }
+])
