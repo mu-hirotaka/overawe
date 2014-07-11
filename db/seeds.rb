@@ -5,5 +5,6 @@ MissionMaster.first_or_create([
   { id: 4, title: 'ボールを手に入れろ', content: '種類はなんでもいい。ボールを入手してくれ。', opened_at: 1404745200, closed_at: 1404831599 },
   { id: 5, title: 'ソーメンを食べろ', content: 'ソーメンを食べて報告してくれ。', opened_at: 1404831600, closed_at: 1404917999 },
   { id: 6, title: 'ネクタイを入手しろ', content: 'ネクタイを入手して報告しろ。', opened_at: 1404918000, closed_at: 1405004399 },
-  { id: 7, title: 'パスタを食べろ', content: 'パスタを食べて報告しろ。', opened_at: 1405004400, closed_at: 1405090799 }
+  { id: 7, title: 'パスタを食べろ', content: 'パスタを食べて報告しろ。', opened_at: 1405004400, closed_at: 1405090799 },
+  { id: 8, title: 'お茶を入手しろ', content: 'お茶を入手して報告しろ。', opened_at: 1405090800, closed_at: 1405177199 }
 ])
