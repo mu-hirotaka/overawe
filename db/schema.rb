@@ -11,7 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140706220748) do
+ActiveRecord::Schema.define(version: 20140714075721) do
+
+  create_table "counters", force: true do |t|
+    t.integer  "challenge_num", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "mission_masters", force: true do |t|
     t.string   "title",      null: false

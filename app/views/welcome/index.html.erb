@@ -8,7 +8,7 @@
   <% @today_missions.each do |mission| %>
     <div class="callout callout-danger">
       <h4><%= mission.title %></h4>
-      <p><%= mission.content %></p>
+      <p><%= mission.content %>（現在の挑戦者数<%= @counter.challenge_num %>人）</p>
     </div>
   <% end %>
 <% else %>
@@ -44,4 +44,3 @@
   <p>ツイートするネタが欲しい</p>
   <p>そんな迷える子羊ちゃん向けのサービスです</p>
 </div>
-

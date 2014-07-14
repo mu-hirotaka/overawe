@@ -10,3 +10,8 @@ MissionMaster.first_or_create([
   { id: 9, title: '目薬を入手しろ', content: '目薬を入手して報告しろ。', opened_at: 1405177200, closed_at: 1405263599 },
   { id: 10, title: '薬を入手しろ', content: '種類はなんでもいい。薬を入手して報告しろ。', opened_at: 1405263600, closed_at: 1405349999 }
 ])
+
+
+Counter.first_or_create(
+ id: 1, challenge_num: 0
+)
