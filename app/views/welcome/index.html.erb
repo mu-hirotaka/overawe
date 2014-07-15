@@ -11,8 +11,8 @@
       <p><%= mission.content %></p>
     </div>
     <div class="mission-detail">
-      <div class="remain-time" data-remain-time="<%= mission.closed_at %>">残り：<span class="remain-time-value">23:00:00</span></div>
-      <div class="challenge-num">挑戦人数：<span class="challenge-num-value"><%= @counter.challenge_num %></span>人</div>
+      <div class="remain-time" data-remain-time="<%= mission.closed_at %>">残り:<span class="remain-time-value"></span></div>
+      <div class="challenge-num">挑戦人数:<span class="challenge-num-value"><%= @counter.challenge_num %></span>人</div>
     </div>
   <% end %>
 <% else %>
