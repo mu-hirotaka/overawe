@@ -9,7 +9,7 @@ MissionMaster.first_or_create([
   { id: 8, title: 'お茶を入手しろ', content: 'お茶を入手して報告しろ。', opened_at: 1405090800, closed_at: 1405177199 },
   { id: 9, title: '目薬を入手しろ', content: '目薬を入手して報告しろ。', opened_at: 1405177200, closed_at: 1405263599 },
   { id: 10, title: '薬を入手しろ', content: '種類はなんでもいい。薬を入手して報告しろ。', opened_at: 1405263600, closed_at: 1405349999 },
-  { id: 11, title: '本を1冊読破しろ', content: 'ジャンルは問わない。本を読破して報告しろ。', opened_at: 1405350000, closed_at: 1405522799 }
+  { id: 11, title: '本を1冊読破しろ', content: 'ジャンルは問わない。本を読破して報告しろ。', opened_at: 1405350000, closed_at: 1405609199 }
 ])
 
 
