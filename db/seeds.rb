@@ -11,7 +11,7 @@ MissionMaster.first_or_create([
   { id: 10, title: '薬を入手しろ', content: '種類はなんでもいい。薬を入手して報告しろ。', opened_at: 1405263600, closed_at: 1405349999 },
   { id: 11, title: '本を1冊読破しろ', content: 'ジャンルは問わない。本を読破して報告しろ。', opened_at: 1405350000, closed_at: 1405609199 },
   { id: 12, title: 'チャーハンを食え', content: 'チャーハンを食って報告しろ。', opened_at: 1405609200, closed_at: 1405695599 },
-  { id: 13, title: 'ヨーグルトを食え', content: 'ヨーグルトを食って報告しろ。', opened_at: 1405695600, closed_at: 1405781999 }
+  { id: 13, title: 'ヨーグルトを食え', content: 'ヨーグルトを食って報告しろ。', opened_at: 1405695600, closed_at: 1405868399 }
 ])
 
 
