@@ -12,7 +12,8 @@ MissionMaster.first_or_create([
   { id: 11, title: '本を1冊読破しろ', content: 'ジャンルは問わない。本を読破して報告しろ。', opened_at: 1405350000, closed_at: 1405609199 },
   { id: 12, title: 'チャーハンを食え', content: 'チャーハンを食って報告しろ。', opened_at: 1405609200, closed_at: 1405695599 },
   { id: 13, title: 'ヨーグルトを食え', content: 'ヨーグルトを食って報告しろ。', opened_at: 1405695600, closed_at: 1405868399 },
-  { id: 14, title: 'お気に入りのカバンをみせろ', content: 'お気に入りのカバンをみせてくれ。毎日使ってるカバンでもいい。', opened_at: 1405868400, closed_at: 1405954799 }
+  { id: 14, title: 'お気に入りのカバンをみせろ', content: 'お気に入りのカバンをみせてくれ。毎日使ってるカバンでもいい。', opened_at: 1405868400, closed_at: 1405954799 },
+  { id: 15, title: 'コップを手に入れろ', content: 'コップを手に入れて報告しろ。', opened_at: 1405954800, closed_at: 1406041199 }
 ])
 
 
